@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lexend:wght@300;400;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c27731efcf.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <title>Tamara Fernandez</title>
+</head>
+<body class="light-theme">
+    <section class="header">
+        <nav>
+            <ul class="header-menu">    
+                <li><a href="#about-me">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#my-projects">Proyectos</a></li>
+                <li><a href="#contact-info">Contacto</a></li>
+<!--            <li><a href="#change-languaje"><i class="fas fa-language"></i></a></li>-->    
+                <li><a href="#change-theme"><i class="fas fa-adjust" onclick="retheme()"></i></a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="about-me" class="">
+        <div class="container">
+            <div>
+              <p>
+                Hola!
+                <br/>
+                Soy  Tamara Fernandez, desarrolladora <span class="cross-out">Full-Stack</span> 
+                Front End con nociones de backend <span class="dot">.</span>
+                <br/> 
+                Actualmente me encuentro trabajado como tester y analista 
+                de performance de SAP pero estoy buscando hacer un cambio de 
+                tecnología y orientar mi carrera hacia el desarrollo de interfaces web <span class="dot">.</span>
+              </p>
+            </div>
+            <div> 
+              <figure class="computer">
+                <img src="./assets/imgs/computer.svg" alt="">
+              </figure>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h1> { Habilidades Técnicas}</h1>
+            <div class="img-container">
+                <figure class="skill-card"><img src="./assets/icons/html5.svg" alt="">
+                  <figcaption class="figcaption">HTML 5 Avanzado</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/css3.svg" alt="">
+                  <figcaption class="figcaption">CSS Avanzado</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/bootstrap.svg" alt="">
+                  <figcaption class="figcaption">Bootstrap Intermedio</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/javascript.svg" alt="">
+                  <figcaption class="figcaption">Javascript Avanzado</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/react.svg" alt="">
+                  <figcaption class="figcaption">React Básico</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/git.svg" alt="">
+                  <figcaption class="figcaption">Git Intermedio</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/sap.svg" alt="">
+                  <figcaption class="figcaption">ABAP Avanzado</figcaption>
+                </figure>
+                <figure class="skill-card"><img src="./assets/icons/language.svg" alt="">
+                  <figcaption class="figcaption">Inglés Intermedio</figcaption>
+                </figure>
+            </div>
+    </section>
+    <section id="my-projects">
+        <h1> { Mis Proyectos }</h1>
+            <div class="project-container">
+              <div>
+                <figure><a href="https://tamfernandez98.github.io/infocripto/" target="_blank"><img src="./assets/imgs/infocripto.png" alt=""></a></figure>
+                  <figcaption>
+                    <h3>Infocripto</h3>
+                    <p>Web que utiliza la API de CoinGeko para cotizar
+                       criptomonedas y mostrar las tendencias</p>
+                    <p>Hecho con:
+                      <ul>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3-alt"></i></li>
+                        <li><i class="fab fa-bootstrap"></i></li>
+                        <li><i class="fab fa-js"></i></li>
+                      </ul>
+                    </p>
+                </figcaption>
+              </div>
+              <div>
+                <figure><a href="#"><img src="./assets/imgs/portfolio.png" alt=""></a></figure>
+                  <figcaption>
+                    <h3>Portafolio</h3>
+                   <p>Este portafolio personal que es utilizado a modo de presentación</p>
+                    <p>Hecho con:
+                      <ul>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3-alt"></i></li>
+                        <li><i class="fab fa-js"></i></li>
+                      </ul>
+                    </p>
+                </figcaption>
+              </div>
+              <div>
+                <figure><img src="./assets/imgs/coming-soon.svg" alt=""></figure>
+                  <figcaption>
+                    <h3>Proximamente</h3>
+                    <p>Pronto estaran disponible nuevos proyectos que combinen mis actuales conocimientos + extras</p>
+                    <p>Hecho con:
+                      <ul>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3-alt"></i></li>
+                        <li><i class="fab fa-bootstrap"></i></li>
+                        <li><i class="fab fa-js"></i></li>
+                      </ul>
+                    </p>
+                </figcaption>
+              </div>
+           </div>    
+    </section>
+    <footer id="contact-info" >
+      <div class="contact-list">
+        <p>Contactame!</p>
+        <ul>
+         <li><a href="mailto:fernandeztamara.a98@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/tamara-f-a30704160/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/tamfernandez98"target="_blank"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>
